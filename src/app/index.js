@@ -67,12 +67,23 @@ map.on('load', () => {
 
         const feature = features[0];
 
+        //extract out the values for a streetview request
+        const streetViewUrl = feature.properties['svurl'];
+        const heading = parseFloat( /(\d+\.?\d*)h/g.exec(streetViewUrl)[1] );
+        const pitch = parseFloat( /(\d+\.?\d*)t/g.exec(streetViewUrl)[1] ) - 90;
+        const fov = parseFloat( /(\d+\.?\d*)y/g.exec(streetViewUrl)[1] ) * 2.0 ;
+        const pano = /!1s([^!]*)!/g.exec(streetViewUrl)[1];
+        const imageUrl = `https://maps.googleapis.com/maps/api/streetview?size=400x200&pano=${pano}&heading=${heading}&pitch=${pitch}&fov=${fov}&key=AIzaSyAyLX6I61lDqBMEVnU4QqLajosJbtiTvQM`;
+
+
         // Populate the popup and set its coordinates
         // based on the feature found
         const popup = new mapboxgl.Popup()
             .setLngLat(e.lngLat)
             .setHTML(`<div id=\'popup\' class=\'popup\' style=\'z-index: 10;\'> <h5> ${feature.properties['address']} </h5> 
-            <span> ${feature.properties['name']} ( ${feature.properties['class']} ) </span></div>`)
+            <span> ${feature.properties['name']} ( ${feature.properties['class']} ) </span>
+            <img src=${imageUrl}>
+            </div>`)
             .addTo(map);
     });
 
