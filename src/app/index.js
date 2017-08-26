@@ -21,7 +21,7 @@ map.on('load', () => {
     map.addControl(nav, 'top-left');
 
     map.addLayer({
-        'id':'boundaries 2017',
+        'id':'Jul 2016',
         'type':'fill',
         'source':{
             'type':'vector',
@@ -37,13 +37,13 @@ map.on('load', () => {
     });
 
     map.addLayer({
-        'id':'boundaries 2007',
+        'id':'Sep 2007',
         'type':'fill',
         'source':{
             'type':'vector',
-            'url': 'mapbox://peterschretlen.cj69f4y5m0rkm2wlmt4d9qb0h-48xqd'
+            'url': 'mapbox://peterschretlen.cj6sojsfc03se32rpfhz1l04e-9dm5e'
         },
-        'source-layer': 'DECA_-_Danforth', // name of tileset
+        'source-layer': 'Danforth_-_2007_-_09', // name of tileset
         'paint': {
             'fill-color': `rgba(0, 255, 0, 0.5)`,
             //'fill-opacity': 0.5,
@@ -52,13 +52,13 @@ map.on('load', () => {
         }
     });
 
-    const toggleableLayerIds = [ 'boundaries 2007',  'boundaries 2017', ];
+    const toggleableLayerIds = [ 'Sep 2007',  'Jul 2016', ];
     addLayerToggles( toggleableLayerIds )
 
     // When a click event occurs near a place, open a popup at the location of
     // the feature, with HTML description from its properties
     map.on('click', e => {
-        const features = map.queryRenderedFeatures(e.point, { layers: ['boundaries 2017'] });
+        const features = map.queryRenderedFeatures(e.point, { layers: ['Jul 2016', 'Sep 2007'] });
 
         // if the features have no info, return nothing
         if (!features.length) {
@@ -90,7 +90,7 @@ map.on('load', () => {
     // Use the same approach as above to indicate that the symbols are clickable
     // by changing the cursor style to 'pointer'
     map.on('mousemove', e => {
-        const features = map.queryRenderedFeatures(e.point, { layers: ['boundaries 2017'] });
+        const features = map.queryRenderedFeatures(e.point, { layers: ['Jul 2016', 'Sep 2007'] });
         map.getCanvas().style.cursor = features.length ? 'pointer' : '';
     });
 
