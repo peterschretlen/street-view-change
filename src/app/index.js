@@ -14,6 +14,14 @@ const map = new mapboxgl.Map({
   scrollZoom: true
 });
 
+const statusToColor = [
+    ['occupied', '#D49A66'],
+    ['vacant', '#A29354'],
+    ['construction', '#738856'],
+    ['unknown', '#50795F']
+];
+
+
 const nav = new mapboxgl.NavigationControl()
 
 map.on('load', () => {
@@ -29,8 +37,13 @@ map.on('load', () => {
         },
         'source-layer': 'DECA_-_Danforth', // name of tileset
         'paint': {
-            'fill-color': `rgba(255, 0, 0, 0.5)`,
+            //'fill-color': `rgba(255, 0, 0, 0.5)`,
             //'fill-opacity': 0.5,
+            'fill-color' : {
+                'property' : 'status',
+                'type' : 'categorical',
+                'stops' : statusToColor
+            },
             'fill-outline-color' : `rgba(255, 0, 0, 1)`,
 
         }
@@ -45,7 +58,12 @@ map.on('load', () => {
         },
         'source-layer': 'Danforth_-_2007_-_09', // name of tileset
         'paint': {
-            'fill-color': `rgba(0, 255, 0, 0.5)`,
+            //'fill-color': `rgba(0, 255, 0, 0.5)`,
+            'fill-color' : {
+                'property' : 'status',
+                'type' : 'categorical',
+                'stops' : statusToColor
+            },
             //'fill-opacity': 0.5,
             'fill-outline-color' : `rgba(0, 255, 0, 1)`,
 
@@ -72,11 +90,14 @@ map.on('load', () => {
 
             //extract out the values for a streetview request
             const streetViewUrl = f.properties['svurl'];
-            const heading = parseFloat( /(\d+\.?\d*)h/g.exec(streetViewUrl)[1] );
-            const pitch = parseFloat( /(\d+\.?\d*)t/g.exec(streetViewUrl)[1] ) - 90;
-            const fov = parseFloat( /(\d+\.?\d*)y/g.exec(streetViewUrl)[1] ) * 2.0 ;
-            const pano = /!1s([^!]*)!/g.exec(streetViewUrl)[1];
-            const imageUrl = `https://maps.googleapis.com/maps/api/streetview?size=300x150&pano=${pano}&heading=${heading}&pitch=${pitch}&fov=${fov}&key=AIzaSyAyLX6I61lDqBMEVnU4QqLajosJbtiTvQM`;
+            let imageUrl = "http://via.placeholder.com/300x150";
+            if(streetViewUrl){
+                const heading = parseFloat( /(\d+\.?\d*)h/g.exec(streetViewUrl)[1] );
+                const pitch = parseFloat( /(\d+\.?\d*)t/g.exec(streetViewUrl)[1] ) - 90;
+                const fov = parseFloat( /(\d+\.?\d*)y/g.exec(streetViewUrl)[1] ) * 1.8 ;
+                const pano = /!1s([^!]*)!/g.exec(streetViewUrl)[1];
+                imageUrl = `https://maps.googleapis.com/maps/api/streetview?size=300x150&pano=${pano}&heading=${heading}&pitch=${pitch}&fov=${fov}&key=AIzaSyAyLX6I61lDqBMEVnU4QqLajosJbtiTvQM`;
+            }
 
             popupHtml += `<div>
                         <span> ${f.properties['date']} | </span> 
