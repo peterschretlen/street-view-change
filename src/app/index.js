@@ -65,25 +65,34 @@ map.on('load', () => {
             return;
         }
 
-        const feature = features[0];
 
-        //extract out the values for a streetview request
-        const streetViewUrl = feature.properties['svurl'];
-        const heading = parseFloat( /(\d+\.?\d*)h/g.exec(streetViewUrl)[1] );
-        const pitch = parseFloat( /(\d+\.?\d*)t/g.exec(streetViewUrl)[1] ) - 90;
-        const fov = parseFloat( /(\d+\.?\d*)y/g.exec(streetViewUrl)[1] ) * 2.0 ;
-        const pano = /!1s([^!]*)!/g.exec(streetViewUrl)[1];
-        const imageUrl = `https://maps.googleapis.com/maps/api/streetview?size=400x200&pano=${pano}&heading=${heading}&pitch=${pitch}&fov=${fov}&key=AIzaSyAyLX6I61lDqBMEVnU4QqLajosJbtiTvQM`;
+        let popupHtml = `<div id=\'popup\' class=\'popup\' style=\'z-index: 10;\'>`;
 
+        features.forEach( f => {
 
-        // Populate the popup and set its coordinates
-        // based on the feature found
+            //extract out the values for a streetview request
+            const streetViewUrl = f.properties['svurl'];
+            const heading = parseFloat( /(\d+\.?\d*)h/g.exec(streetViewUrl)[1] );
+            const pitch = parseFloat( /(\d+\.?\d*)t/g.exec(streetViewUrl)[1] ) - 90;
+            const fov = parseFloat( /(\d+\.?\d*)y/g.exec(streetViewUrl)[1] ) * 2.0 ;
+            const pano = /!1s([^!]*)!/g.exec(streetViewUrl)[1];
+            const imageUrl = `https://maps.googleapis.com/maps/api/streetview?size=300x150&pano=${pano}&heading=${heading}&pitch=${pitch}&fov=${fov}&key=AIzaSyAyLX6I61lDqBMEVnU4QqLajosJbtiTvQM`;
+
+            popupHtml += `<div>
+                        <span> ${f.properties['date']} | </span> 
+                        <span> ${f.properties['address']} | </span> 
+                        <span> ${f.properties['status']} | </span> 
+                        <span> ${f.properties['name']} ( ${f.properties['class']} ) </span>
+                        <img src=${imageUrl}>
+                    </div>`;
+
+        });
+
+        popupHtml += "</div>";
+
         const popup = new mapboxgl.Popup()
             .setLngLat(e.lngLat)
-            .setHTML(`<div id=\'popup\' class=\'popup\' style=\'z-index: 10;\'> <h5> ${feature.properties['address']} </h5> 
-            <span> ${feature.properties['name']} ( ${feature.properties['class']} ) </span>
-            <img src=${imageUrl}>
-            </div>`)
+            .setHTML(popupHtml)
             .addTo(map);
     });
 
