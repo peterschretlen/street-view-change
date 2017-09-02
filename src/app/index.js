@@ -10,6 +10,7 @@ const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/peterschretlen/cj6a06kla2tfq2sr1ms6xkh62',
   center: center,
+  bearing: -17,
   zoom: 14,
   scrollZoom: true
 });
@@ -64,7 +65,6 @@ map.on('load', () => {
                 'stops' : statusToColorActive
             },
             'fill-outline-color' : `rgba(55, 55, 55, 0.5)`,
-
         }
     });
 
