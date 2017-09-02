@@ -14,13 +14,13 @@ const map = new mapboxgl.Map({
   scrollZoom: true
 });
 
-const statusToColor = [
-    ['occupied', '#D49A66'],
-    ['vacant', '#A29354'],
-    ['construction', '#738856'],
-    ['unknown', '#50795F']
+const statusToColorActive = [
+    ['occupied', 'rgba(0, 255, 0, 1)'],
+    ['vacant', 'rgba(255, 0, 0, 1)'],
+    ['construction', 'rgba(0, 0, 255, 1)'],
+    ['unknown', 'rgba(90, 90, 90, 0.7)'],
+    ['N/A', 'rgba(0, 0, 0, 0)']
 ];
-
 
 const nav = new mapboxgl.NavigationControl()
 
@@ -42,9 +42,9 @@ map.on('load', () => {
             'fill-color' : {
                 'property' : 'status',
                 'type' : 'categorical',
-                'stops' : statusToColor
+                'stops' : statusToColorActive
             },
-            'fill-outline-color' : `rgba(255, 0, 0, 1)`,
+            'fill-outline-color' : `rgba(55, 55, 55, 0.5)`,
 
         }
     });
@@ -62,10 +62,10 @@ map.on('load', () => {
             'fill-color' : {
                 'property' : 'status',
                 'type' : 'categorical',
-                'stops' : statusToColor
+                'stops' : statusToColorActive
             },
             //'fill-opacity': 0.5,
-            'fill-outline-color' : `rgba(0, 255, 0, 1)`,
+            'fill-outline-color' : `rgba(55, 55, 55, 0.5)`,
 
         }
     });
@@ -134,23 +134,30 @@ function addLayerToggles( ids ){
 
         const link = document.createElement('a');
         link.href = '#';
-        link.className = 'active';
+        link.className = id === 'Jul 2016' ? 'active' : '';
         link.textContent = id;
+        link.id = `l-${id.replace(/ /g,'-')}`;
 
         link.onclick = e => {
             const clickedLayer = e.target.textContent;
             e.preventDefault();
             e.stopPropagation();
 
-            const visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+            //turn on the clicked layer, turn others off
+            ids.forEach( layerId => {
 
-            if (visibility === 'visible') {
-                map.setLayoutProperty(clickedLayer, 'visibility', 'none');
-                e.target.className = '';
-            } else {
-                e.target.className = 'active';
-                map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
-            }
+                const elem = document.getElementById( `l-${layerId.replace(/ /g,'-')}`);
+
+                if (clickedLayer === layerId) {
+                    elem.className = 'active';
+                    map.setPaintProperty(layerId, 'fill-opacity', 1);
+                    return;
+                }
+
+                map.setPaintProperty(layerId, 'fill-opacity', 0);
+                elem.className = '';
+
+            })
         };
 
         const layers = document.getElementById('menu');
