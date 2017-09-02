@@ -7,7 +7,14 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 100%;
+  left: 0%;
+  width: 80%;
+}
+
+.sidebar {
+  position: absolute;
+  left: 80%;
+  width: 20%;
 }
 
 #menu {
@@ -50,9 +57,4 @@ body {
 
 #menu a.active:hover {
     background: #3074a4;
-}
-
-.mapboxgl-popup-content {
-  max-width: 430px;
-  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }

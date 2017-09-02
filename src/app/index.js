@@ -82,7 +82,7 @@ map.on('load', () => {
         }
 
 
-        let popupHtml = `<div id=\'popup\' class=\'popup\' style=\'z-index: 10;\'>`;
+        let infoHTML = `<div id=\'storefront-info\' class=\'storefront-info\'>`;
 
         features.forEach( f => {
 
@@ -97,7 +97,7 @@ map.on('load', () => {
                 imageUrl = `https://maps.googleapis.com/maps/api/streetview?size=300x150&pano=${pano}&heading=${heading}&pitch=${pitch}&fov=${fov}&key=AIzaSyAyLX6I61lDqBMEVnU4QqLajosJbtiTvQM`;
             }
 
-            popupHtml += `<div>
+            infoHTML += `<div>
                         <span> ${f.properties['date']} | </span> 
                         <span> ${f.properties['address']} | </span> 
                         <span> ${f.properties['status']} | </span> 
@@ -107,12 +107,11 @@ map.on('load', () => {
 
         });
 
-        popupHtml += "</div>";
+        infoHTML += "</div>";
 
-        const popup = new mapboxgl.Popup()
-            .setLngLat(e.lngLat)
-            .setHTML(popupHtml)
-            .addTo(map);
+        const sidebar = document.getElementById('sidebar');
+        sidebar.innerHTML = infoHTML;
+
     });
 
     // Use the same approach as above to indicate that the symbols are clickable
