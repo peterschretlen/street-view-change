@@ -37,8 +37,7 @@ map.on('load', () => {
         },
         'source-layer': 'DECA_-_Danforth', // name of tileset
         'paint': {
-            //'fill-color': `rgba(255, 0, 0, 0.5)`,
-            //'fill-opacity': 0.5,
+            'fill-opacity' : 0.5,
             'fill-color' : {
                 'property' : 'status',
                 'type' : 'categorical',
@@ -58,13 +57,12 @@ map.on('load', () => {
         },
         'source-layer': 'Danforth_-_2007_-_09', // name of tileset
         'paint': {
-            //'fill-color': `rgba(0, 255, 0, 0.5)`,
+            'fill-opacity' : 0.0,
             'fill-color' : {
                 'property' : 'status',
                 'type' : 'categorical',
                 'stops' : statusToColorActive
             },
-            //'fill-opacity': 0.5,
             'fill-outline-color' : `rgba(55, 55, 55, 0.5)`,
 
         }
@@ -150,11 +148,11 @@ function addLayerToggles( ids ){
 
                 if (clickedLayer === layerId) {
                     elem.className = 'active';
-                    map.setPaintProperty(layerId, 'fill-opacity', 1);
+                    map.setPaintProperty(layerId, 'fill-opacity', 0.5);
                     return;
                 }
 
-                map.setPaintProperty(layerId, 'fill-opacity', 0);
+                map.setPaintProperty(layerId, 'fill-opacity', 0.0);
                 elem.className = '';
 
             })
