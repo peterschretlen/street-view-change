@@ -16,9 +16,9 @@ const map = new mapboxgl.Map({
 });
 
 const statusToColorActive = [
-    ['occupied', 'rgba(0, 255, 0, 1)'],
-    ['vacant', 'rgba(255, 0, 0, 1)'],
-    ['construction', 'rgba(0, 0, 255, 1)'],
+    ['occupied', 'rgba(0, 255, 0, 0.5)'],
+    ['vacant', 'rgba(255, 0, 0, 0.5)'],
+    ['construction', 'rgba(0, 0, 255, 0.5)'],
     ['unknown', 'rgba(90, 90, 90, 0.7)'],
     ['N/A', 'rgba(0, 0, 0, 0)']
 ];
@@ -38,7 +38,7 @@ map.on('load', () => {
         },
         'source-layer': 'DECA_-_Danforth', // name of tileset
         'paint': {
-            'fill-opacity' : 0.5,
+            'fill-opacity' : 1.0,
             'fill-color' : {
                 'property' : 'status',
                 'type' : 'categorical',
@@ -97,12 +97,13 @@ map.on('load', () => {
                 imageUrl = `https://maps.googleapis.com/maps/api/streetview?size=300x150&pano=${pano}&heading=${heading}&pitch=${pitch}&fov=${fov}&key=AIzaSyAyLX6I61lDqBMEVnU4QqLajosJbtiTvQM`;
             }
 
-            infoHTML += `<div>
-                        <span> ${f.properties['date']} | </span> 
-                        <span> ${f.properties['address']} | </span> 
-                        <span> ${f.properties['status']} | </span> 
-                        <span> ${f.properties['name']} ( ${f.properties['class']} ) </span>
+            infoHTML += `<div class="infotile" style="background-color:${ statusToColorActive.find( e => e[0] === f.properties['status'] )[1] }">
                         <img src=${imageUrl}>
+                        <p><span> Date: ${f.properties['date']} </span></p>
+                        <p><span> Address: ${f.properties['address']} </span></p>
+                        <p><span> Status: ${f.properties['status']} </span></p>
+                        <p><span> Name: ${f.properties['name']}</span></p>
+                        <p><span> Class: ${f.properties['class']}</span></p>
                     </div>`;
 
         });
@@ -147,7 +148,7 @@ function addLayerToggles( ids ){
 
                 if (clickedLayer === layerId) {
                     elem.className = 'active';
-                    map.setPaintProperty(layerId, 'fill-opacity', 0.5);
+                    map.setPaintProperty(layerId, 'fill-opacity', 1.0);
                     return;
                 }
 
