@@ -241,7 +241,7 @@
     {
       "type": "Feature",
       "properties": {
-        "address": "1549 Danforth Ave",
+        "address": "1533 Danforth Ave",
         "class": "unknown",
         "date": "Sep 2007",
         "name": "unknown",
@@ -798,7 +798,7 @@
         "address": "1435 Danforth Ave",
         "class": "housing",
         "name": "-",
-        "date": "July 2016",
+        "date": "Sep 2007",
         "status": "N/A",
         "svurl": "https://www.google.ca/maps/@43.6827193,-79.3266936,3a,27.3y,153.36h,93.97t/data=!3m7!1e1!3m5!1sAuGtKjQFKDSepbldz1amOQ!2e0!5s20070901T000000!7i3328!8i1664"
       },
@@ -1892,9 +1892,9 @@
       "type": "Feature",
       "properties": {
         "address": "1505 Danforth Ave",
-        "class": "unknown",
+        "class": "services",
         "date": "Sep 2007",
-        "name": "unknown",
+        "name": "Opinion Service",
         "status": "occupied",
         "svurl": "https://www.google.ca/maps/@43.6829895,-79.3254096,3a,26.5y,157.41h,87.7t/data=!3m7!1e1!3m5!1sE9K7CERHL133T-KxdPx-PQ!2e0!5s20070901T000000!7i3328!8i1664"
       },
@@ -1933,7 +1933,7 @@
         "address": "1501 Danforth Ave",
         "class": "services",
         "date": "Sep 2007",
-        "name": "Byte Media",
+        "name": "Byte Media / Baldhead Systems",
         "status": "occupied",
         "svurl": "https://www.google.ca/maps/@43.6829548,-79.3255722,3a,26.5y,142.59h,90.78t/data=!3m7!1e1!3m5!1sZYCEjVNgobBIBnKceoppaA!2e0!5s20070901T000000!7i3328!8i1664"
       },
@@ -2299,7 +2299,7 @@
       "properties": {
         "address": "1475 Danforth Ave",
         "class": "restaurant",
-        "date": "July 2016",
+        "date": "Sep 2007",
         "name": "Djerba Cafe",
         "status": "occupied",
         "svurl": "https://www.google.ca/maps/@43.6828757,-79.3259393,3a,21.8y,168.04h,90.34t/data=!3m7!1e1!3m5!1sSsjyvA5GNCO5nPFiibdOfw!2e0!5s20070901T000000!7i3328!8i1664"

@@ -15,13 +15,21 @@ const map = new mapboxgl.Map({
   scrollZoom: true
 });
 
+//taken from tableau 20 color palette
 const statusToColorActive = [
-    ['occupied', 'rgba(0, 255, 0, 0.5)'],
-    ['vacant', 'rgba(255, 0, 0, 0.5)'],
-    ['construction', 'rgba(0, 0, 255, 0.5)'],
-    ['unknown', 'rgba(90, 90, 90, 0.7)'],
+    ['occupied', 'rgba(84, 162, 75, 0.5)'],
+    ['vacant', 'rgba(228, 87, 86, 0.5)'],
+    ['construction', 'rgba(183, 154, 32, 0.5)'],
+    ['unknown', 'rgba(121, 112, 110, 0.7)'],
     ['N/A', 'rgba(0, 0, 0, 0)']
 ];
+
+const layerNames = [
+    'Jul 2016',
+    'Apr 2009',
+    'Sep 2007'
+];
+
 
 const nav = new mapboxgl.NavigationControl()
 
@@ -30,7 +38,7 @@ map.on('load', () => {
     map.addControl(nav, 'top-left');
 
     map.addLayer({
-        'id':'Jul 2016',
+        'id': layerNames[0],
         'type':'fill',
         'source':{
             'type':'vector',
@@ -50,7 +58,26 @@ map.on('load', () => {
     });
 
     map.addLayer({
-        'id':'Sep 2007',
+        'id': layerNames[1],
+        'type':'fill',
+        'source':{
+            'type':'vector',
+            'url': 'mapbox://peterschretlen.cj76725b61j0i33pi5oo4e4gh-6uwk7'
+        },
+        'source-layer': 'Danforth_-_2009_-_04', // name of tileset
+        'paint': {
+            'fill-opacity' : 0.0,
+            'fill-color' : {
+                'property' : 'status',
+                'type' : 'categorical',
+                'stops' : statusToColorActive
+            },
+            'fill-outline-color' : `rgba(55, 55, 55, 0.5)`,
+        }
+    });
+
+    map.addLayer({
+        'id': layerNames[2],
         'type':'fill',
         'source':{
             'type':'vector',
@@ -68,13 +95,13 @@ map.on('load', () => {
         }
     });
 
-    const toggleableLayerIds = [ 'Sep 2007',  'Jul 2016', ];
+    const toggleableLayerIds = layerNames;
     addLayerToggles( toggleableLayerIds )
 
     // When a click event occurs near a place, open a popup at the location of
     // the feature, with HTML description from its properties
     map.on('click', e => {
-        const features = map.queryRenderedFeatures(e.point, { layers: ['Jul 2016', 'Sep 2007'] });
+        const features = map.queryRenderedFeatures(e.point, { layers: layerNames });
 
         // if the features have no info, return nothing
         if (!features.length) {
@@ -99,11 +126,32 @@ map.on('load', () => {
 
             infoHTML += `<div class="infotile" style="background-color:${ statusToColorActive.find( e => e[0] === f.properties['status'] )[1] }">
                         <img src=${imageUrl}>
-                        <p><span> Date: ${f.properties['date']} </span></p>
-                        <p><span> Address: ${f.properties['address']} </span></p>
-                        <p><span> Status: ${f.properties['status']} </span></p>
-                        <p><span> Name: ${f.properties['name']}</span></p>
-                        <p><span> Class: ${f.properties['class']}</span></p>
+                        <table style="width:100%">
+                          <colgroup>
+                            <col width="30%">
+                            <col width="70%">
+                          </colgroup>
+                          <tr>
+                            <td>Date</td>
+                            <td><span>${f.properties['date']} </span></td>
+                          </tr>
+                          <tr style="width:70%"> 
+                            <td>Address</td> 
+                            <td><span>${f.properties['address']} </span></td>
+                          </tr>
+                          <tr>
+                            <td>Status</td> 
+                            <td><span>${f.properties['status']} </span></td>
+                          </tr>
+                          <tr>
+                            <td>Name</td> 
+                            <td><span>${f.properties['name']}</span></td>
+                          </tr>
+                          <tr>
+                            <td>Class</td> 
+                            <td><span>${f.properties['class']}</span></td>
+                          </tr>
+                        </table>
                     </div>`;
 
         });
@@ -118,7 +166,7 @@ map.on('load', () => {
     // Use the same approach as above to indicate that the symbols are clickable
     // by changing the cursor style to 'pointer'
     map.on('mousemove', e => {
-        const features = map.queryRenderedFeatures(e.point, { layers: ['Jul 2016', 'Sep 2007'] });
+        const features = map.queryRenderedFeatures(e.point, { layerNames });
         map.getCanvas().style.cursor = features.length ? 'pointer' : '';
     });
 
@@ -132,7 +180,7 @@ function addLayerToggles( ids ){
 
         const link = document.createElement('a');
         link.href = '#';
-        link.className = id === 'Jul 2016' ? 'active' : '';
+        link.className = id === layerNames[0] ? 'active' : '';
         link.textContent = id;
         link.id = `l-${id.replace(/ /g,'-')}`;
 

@@ -1,0 +1,2646 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1486 Danforth Ave",
+        "class": "cafe",
+        "date": "Apr 2009",
+        "name": "Gateway Cafe",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6829271,-79.325725,3a,25.5y,335.72h,89.54t/data=!3m7!1e1!3m5!1sEQ5G-MuyROWW6p6IZp_Dtw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.32593,
+              43.683292
+            ],
+            [
+              -79.325808,
+              43.683003
+            ],
+            [
+              -79.325744,
+              43.683017
+            ],
+            [
+              -79.325865,
+              43.683306
+            ],
+            [
+              -79.32593,
+              43.683292
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "021fd3d286c6fc3ddbe49f0b7ad9ba7b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1426 Danforth Ave",
+        "class": "restaurant",
+        "name": "Sarah's Cafe & Bar",
+        "svurl": "https://www.google.ca/maps/@43.6826335,-79.3271187,3a,48.9y,1.4h,91.84t/data=!3m7!1e1!3m5!1sWv25og8krPZRdOmons0bLg!2e0!5s20090401T000000!7i13312!8i6656",
+        "status": "occupied",
+        "date": "Apr 2009"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.327195,
+              43.682992
+            ],
+            [
+              -79.327076,
+              43.683017
+            ],
+            [
+              -79.327054,
+              43.682963
+            ],
+            [
+              -79.327099,
+              43.682954
+            ],
+            [
+              -79.327012,
+              43.682745
+            ],
+            [
+              -79.327085,
+              43.682729
+            ],
+            [
+              -79.327195,
+              43.682992
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "075d6336cbf6a48f71e7fec28d81833b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1444 Danforth Ave",
+        "svurl": "https://www.google.ca/maps/@43.6827618,-79.3264804,3a,25.1y,326.62h,90.57t/data=!3m7!1e1!3m5!1sWXCKyuwCTNdy5QZjf_rxxw!2e0!5s20090401T000000!7i13312!8i6656",
+        "class": "restaurant",
+        "name": "Danforth Cafe",
+        "status": "occupied",
+        "date": "Apr 2009"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326633,
+              43.683141
+            ],
+            [
+              -79.326515,
+              43.682851
+            ],
+            [
+              -79.326578,
+              43.682838
+            ],
+            [
+              -79.326698,
+              43.683127
+            ],
+            [
+              -79.326633,
+              43.683141
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "087e260cbf8c104c9fd519266f327d6d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1536 Danforth Ave",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6831772,-79.3245652,3a,26.4y,8.77h,88.98t/data=!3m7!1e1!3m5!1solt8G1r3M1EQpIe-WWROZg!2e0!5s20090401T000000!7i13312!8i6656",
+        "date": "Apr 2009",
+        "class": "store",
+        "name": "New Midtown Signs & Graphics"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324689,
+              43.683561
+            ],
+            [
+              -79.324625,
+              43.683575
+            ],
+            [
+              -79.324503,
+              43.683285
+            ],
+            [
+              -79.324567,
+              43.683271
+            ],
+            [
+              -79.324689,
+              43.683561
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "0a264abe20bb9ace145e7f537e629173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1550 Danforth Ave",
+        "class": "services",
+        "date": "Apr 2009",
+        "status": "occupied",
+        "name": "Queen Travel",
+        "svurl": "https://www.google.ca/maps/@43.6831963,-79.3241286,3a,15y,328.99h,90.53t/data=!3m7!1e1!3m5!1s4ZKbgBhj79rnH5g1fy_86A!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324347,
+              43.683634
+            ],
+            [
+              -79.324226,
+              43.683345
+            ],
+            [
+              -79.324293,
+              43.68333
+            ],
+            [
+              -79.324413,
+              43.683619
+            ],
+            [
+              -79.324347,
+              43.683634
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "0e70103b7b18b889fb8fb775d7d52075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1530 Danforth Ave",
+        "status": "vacant",
+        "svurl": "https://www.google.ca/maps/@43.6831772,-79.3245652,3a,26.4y,318.5h,87.12t/data=!3m7!1e1!3m5!1solt8G1r3M1EQpIe-WWROZg!2e0!5s20090401T000000!7i13312!8i6656",
+        "date": "Apr 2009",
+        "class": "N/A",
+        "name": "-"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324756,
+              43.683545
+            ],
+            [
+              -79.324634,
+              43.683257
+            ],
+            [
+              -79.324707,
+              43.683241
+            ],
+            [
+              -79.324827,
+              43.683529
+            ],
+            [
+              -79.324756,
+              43.683545
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "10ea9679e7798cb44afd3a26686fda0b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1533 Danforth Ave",
+        "class": "services",
+        "date": "Apr 2009",
+        "name": "Rich Media",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6830581,-79.3249293,3a,19.6y,166.47h,85.44t/data=!3m7!1e1!3m5!1shn_noEm9-AjvB9GeopBwuQ!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324924,
+              43.682947
+            ],
+            [
+              -79.324875,
+              43.682957
+            ],
+            [
+              -79.324814,
+              43.682809
+            ],
+            [
+              -79.324863,
+              43.682799
+            ],
+            [
+              -79.324924,
+              43.682947
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "15f0c961d43a4bd96179b845f8bafbf8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1516 Danforth ave",
+        "class": "store",
+        "date": "Apr 2009",
+        "name": "Hollywood Canteen",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6830581,-79.3249293,3a,19.4y,316.98h,93.66t/data=!3m7!1e1!3m5!1shn_noEm9-AjvB9GeopBwuQ!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325231,
+              43.683443
+            ],
+            [
+              -79.325148,
+              43.68346
+            ],
+            [
+              -79.325028,
+              43.683171
+            ],
+            [
+              -79.325109,
+              43.683155
+            ],
+            [
+              -79.325231,
+              43.683443
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "17d4ff21a7b53be770dc9d0fd7e7535d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1494 Danforth Ave",
+        "class": "store",
+        "date": "Apr 2009",
+        "name": "Foamite",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6829552,-79.3255911,3a,43.3y,340.01h,94.45t/data=!3m7!1e1!3m5!1sK9kP-6Eutw-li9-p_O8acA!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325707,
+              43.683341
+            ],
+            [
+              -79.325586,
+              43.683052
+            ],
+            [
+              -79.325655,
+              43.683037
+            ],
+            [
+              -79.325775,
+              43.683326
+            ],
+            [
+              -79.325707,
+              43.683341
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "1bcccef1c7ca9f5c449c4e985ad69c7f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1473 Danforth Ave",
+        "class": "pharmacy",
+        "date": "Apr 2009",
+        "name": "Main Drug Mart",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6828729,-79.3259774,3a,25.2y,179.85h,89.29t/data=!3m7!1e1!3m5!1sNyOwILut7Q8uSwTznxCnSw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326026,
+              43.682709
+            ],
+            [
+              -79.325929,
+              43.68273
+            ],
+            [
+              -79.32582,
+              43.682468
+            ],
+            [
+              -79.325917,
+              43.682447
+            ],
+            [
+              -79.326026,
+              43.682709
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "1f563b44ac0119441e85f6e38be18882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1503 Danforth Ave",
+        "class": "services",
+        "date": "Apr 2009",
+        "name": "Partch Brasswind",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.682941,-79.3254716,3a,17.2y,149.49h,84.37t/data=!3m7!1e1!3m5!1symf2JYmzSkxPxvxYkWUVoQ!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325411,
+              43.682842
+            ],
+            [
+              -79.325363,
+              43.682852
+            ],
+            [
+              -79.325302,
+              43.682704
+            ],
+            [
+              -79.32535,
+              43.682693
+            ],
+            [
+              -79.325411,
+              43.682842
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "20d91dcfeba979bd79ec65707ed374e0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1552 Danforth Ave",
+        "class": "store",
+        "date": "Apr 2009",
+        "name": "Ages and Stages",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6831963,-79.3241286,3a,26.8y,342.45h,90.22t/data=!3m7!1e1!3m5!1s4ZKbgBhj79rnH5g1fy_86A!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.32428,
+              43.683648
+            ],
+            [
+              -79.324159,
+              43.683359
+            ],
+            [
+              -79.324226,
+              43.683345
+            ],
+            [
+              -79.324347,
+              43.683634
+            ],
+            [
+              -79.32428,
+              43.683648
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "251e527b01a0bef86ca2fa4f1e9d0ea5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1428 Danforth Ave",
+        "class": "store",
+        "name": "Sugar Shark Variety",
+        "svurl": "https://www.google.ca/maps/@43.6826065,-79.3269626,3a,18.7y,349.81h,88.67t/data=!3m7!1e1!3m5!1sbV00oefrOKkEmg6gLfZYzQ!2e0!5s20090401T000000!7i13312!8i6656",
+        "status": "occupied",
+        "date": "Apr 2009"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.32705,
+              43.683023
+            ],
+            [
+              -79.327049,
+              43.683023
+            ],
+            [
+              -79.32694,
+              43.68276
+            ],
+            [
+              -79.32694,
+              43.68276
+            ],
+            [
+              -79.327012,
+              43.682745
+            ],
+            [
+              -79.327099,
+              43.682954
+            ],
+            [
+              -79.327054,
+              43.682963
+            ],
+            [
+              -79.327076,
+              43.683017
+            ],
+            [
+              -79.32705,
+              43.683023
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "2a4aebbda72392ff021bcc12270267c0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1488 Danforth Ave",
+        "class": "pharmacy",
+        "date": "Apr 2009",
+        "name": "Heritage Pharmacy",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.682941,-79.3256587,3a,49.2y,334.53h,89.63t/data=!3m7!1e1!3m5!1sgajU_xKA1H-XAZlN2EZ-cA!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325743,
+              43.683017
+            ],
+            [
+              -79.325655,
+              43.683036
+            ],
+            [
+              -79.325775,
+              43.683325
+            ],
+            [
+              -79.325863,
+              43.683307
+            ],
+            [
+              -79.325743,
+              43.683017
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "2ba945416d7c027f44ecd52e182dc032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1468 Danforth Ave",
+        "class": "consulting",
+        "date": "Apr 2009",
+        "name": "K.H. Davis Consulting Ltd",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6828467,-79.3260973,3a,21.8y,345.92h,87.27t/data=!3m7!1e1!3m5!1sEaCM3hNW11vuGkw5BvWAEg!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326193,
+              43.683236
+            ],
+            [
+              -79.326072,
+              43.682947
+            ],
+            [
+              -79.326144,
+              43.682932
+            ],
+            [
+              -79.326265,
+              43.683221
+            ],
+            [
+              -79.326193,
+              43.683236
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "2baabced58c7dc241b24c8538fded32d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1515 Danforth Ave",
+        "class": "N/A",
+        "date": "Apr 2009",
+        "name": "-",
+        "status": "vacant",
+        "svurl": "https://www.google.ca/maps/@43.6829824,-79.325277,3a,26y,144.16h,83.13t/data=!3m7!1e1!3m5!1sE3vxUv7lbdBrs7ANHR_eZg!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325216,
+              43.682884
+            ],
+            [
+              -79.325168,
+              43.682894
+            ],
+            [
+              -79.325107,
+              43.682746
+            ],
+            [
+              -79.325155,
+              43.682735
+            ],
+            [
+              -79.325216,
+              43.682884
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "2d33fa15e5c538a6922301b6e30da15e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1505 Danforth Ave",
+        "class": "services",
+        "date": "Apr 2009",
+        "name": "Opinion Service",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.682941,-79.3254716,3a,17.6y,132.45h,86.35t/data=!3m7!1e1!3m5!1symf2JYmzSkxPxvxYkWUVoQ!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325363,
+              43.682852
+            ],
+            [
+              -79.325314,
+              43.682863
+            ],
+            [
+              -79.325253,
+              43.682714
+            ],
+            [
+              -79.325302,
+              43.682704
+            ],
+            [
+              -79.325363,
+              43.682852
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "2ef6db81911fe355f49a4ecd28d28aee"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1478 Danforth Ave",
+        "class": "N/A",
+        "date": "Apr 2009",
+        "name": "-",
+        "status": "vacant",
+        "svurl": "https://www.google.ca/maps/@43.6828999,-79.3258534,3a,41.3y,335.74h,86.89t/data=!3m7!1e1!3m5!1snhIK-hp1TJ7MMMDw0Pg9Ag!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.32606,
+              43.683264
+            ],
+            [
+              -79.325995,
+              43.683279
+            ],
+            [
+              -79.325873,
+              43.682989
+            ],
+            [
+              -79.32594,
+              43.682975
+            ],
+            [
+              -79.32606,
+              43.683264
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "32c7bb02ae0424e2ebc9184a057b3d69"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1475 Danforth Ave",
+        "class": "restaurant",
+        "date": "Apr 2009",
+        "name": "Djerba Cafe",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6828729,-79.3259774,3a,25.2y,157.86h,91.75t/data=!3m7!1e1!3m5!1sNyOwILut7Q8uSwTznxCnSw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325929,
+              43.68273
+            ],
+            [
+              -79.325855,
+              43.682746
+            ],
+            [
+              -79.325747,
+              43.682484
+            ],
+            [
+              -79.32582,
+              43.682468
+            ],
+            [
+              -79.325929,
+              43.68273
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "3c023e890b7e19843957762c93014efb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1430 Danforth Ave",
+        "class": "bar",
+        "name": "Sportster's Tap & Grill",
+        "svurl": "https://www.google.ca/maps/@43.6826851,-79.3268681,3a,26.9y,338.41h,87.92t/data=!3m7!1e1!3m5!1svCWiKGviSMaUmSpAOJUzUQ!2e0!5s20090401T000000!7i13312!8i6656",
+        "status": "occupied",
+        "date": "Apr 2009"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.327049,
+              43.683023
+            ],
+            [
+              -79.326977,
+              43.683039
+            ],
+            [
+              -79.326868,
+              43.682776
+            ],
+            [
+              -79.32694,
+              43.68276
+            ],
+            [
+              -79.327049,
+              43.683023
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "3c983d0cbf530ca23266d0ed3600f272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1419 Danforth Ave",
+        "class": "restaurant",
+        "name": "Casa di Giorgio",
+        "date": "Apr 2009",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6826335,-79.3271187,3a,26.3y,139.37h,92.83t/data=!3m7!1e1!3m5!1sWv25og8krPZRdOmons0bLg!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.32699,
+              43.682502
+            ],
+            [
+              -79.326837,
+              43.682534
+            ],
+            [
+              -79.326736,
+              43.682279
+            ],
+            [
+              -79.326884,
+              43.682247
+            ],
+            [
+              -79.32699,
+              43.682502
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "3ed18eee43ba11d3cacadaa2645b6def"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1448 Danforth Ave",
+        "svurl": "https://www.google.ca/maps/@43.682783,-79.3263832,3a,23.9y,318.36h,89.96t/data=!3m7!1e1!3m5!1sMhmg5e1heoTOKwLNvOpC0w!2e0!5s20090401T000000!7i13312!8i6656",
+        "class": "restaurant",
+        "name": "El Sol Mexican",
+        "status": "occupied",
+        "date": "Apr 2009"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326632,
+              43.68314
+            ],
+            [
+              -79.326515,
+              43.682851
+            ],
+            [
+              -79.326433,
+              43.682869
+            ],
+            [
+              -79.326553,
+              43.683158
+            ],
+            [
+              -79.326632,
+              43.68314
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "49c040e39b004887c526f8421ee20c57"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1544 Danforth Ave",
+        "status": "vacant",
+        "date": "Apr 2009",
+        "svurl": "https://www.google.ca/maps/@43.6832387,-79.3242898,3a,50.1y,329.41h,96.46t/data=!3m7!1e1!3m5!1sTBee8Oxucn_nJxncRCNc7A!2e0!5s20090401T000000!7i13312!8i6656",
+        "name": "-",
+        "class": "N/A"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324413,
+              43.683619
+            ],
+            [
+              -79.324293,
+              43.68333
+            ],
+            [
+              -79.324438,
+              43.683299
+            ],
+            [
+              -79.324558,
+              43.683588
+            ],
+            [
+              -79.324413,
+              43.683619
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "517d97514dbc9a022044eb726c405150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1483 Danforth Ave",
+        "class": "housing",
+        "name": "-",
+        "date": "Apr 2009",
+        "status": "N/A",
+        "svurl": "https://www.google.ca/maps/@43.6828729,-79.3259774,3a,25.2y,137.79h,92.08t/data=!3m7!1e1!3m5!1sNyOwILut7Q8uSwTznxCnSw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325855,
+              43.682746
+            ],
+            [
+              -79.325783,
+              43.682761
+            ],
+            [
+              -79.325675,
+              43.682499
+            ],
+            [
+              -79.325747,
+              43.682484
+            ],
+            [
+              -79.325855,
+              43.682746
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "52f9d7fe8b9f7cbfa96dc8a1751327ce"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1506 Danforth Ave",
+        "class": "store",
+        "date": "Apr 2009",
+        "name": "DDD Adult Video",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6829824,-79.325277,3a,26.9y,343.31h,90.97t/data=!3m7!1e1!3m5!1sE3vxUv7lbdBrs7ANHR_eZg!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325463,
+              43.683393
+            ],
+            [
+              -79.325408,
+              43.683404
+            ],
+            [
+              -79.325287,
+              43.683115
+            ],
+            [
+              -79.325342,
+              43.683104
+            ],
+            [
+              -79.325463,
+              43.683393
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "5780747306d94f0d7e4858b379141e01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1568 Danforth Ave",
+        "class": "restaurant",
+        "date": "Apr 2009",
+        "name": "Subway",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6832752,-79.3236409,3a,25.3y,323.57h,88.69t/data=!3m7!1e1!3m5!1sdZwIM8cplMEeql67GKZXOw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.323987,
+              43.683711
+            ],
+            [
+              -79.323914,
+              43.683727
+            ],
+            [
+              -79.323794,
+              43.683438
+            ],
+            [
+              -79.323867,
+              43.683422
+            ],
+            [
+              -79.323987,
+              43.683711
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "57c8c9f1266b4c7be1d25784987062ba"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1517 Danforth Ave",
+        "class": "services",
+        "date": "Apr 2009",
+        "name": "Studio Studios Photography",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6830438,-79.3251763,3a,15y,168.65h,85.26t/data=!3m7!1e1!3m5!1soLFDftcdVjdtnlnY4x_Pkg!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325168,
+              43.682894
+            ],
+            [
+              -79.325119,
+              43.682905
+            ],
+            [
+              -79.325058,
+              43.682757
+            ],
+            [
+              -79.325107,
+              43.682746
+            ],
+            [
+              -79.325168,
+              43.682894
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "5c964707d3b80d3c9601b47b595a42c9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1456 Danforth Ave",
+        "class": "store",
+        "name": "Albi Florist",
+        "svurl": "https://www.google.ca/maps/@43.6828204,-79.3262148,3a,25.1y,334.74h,88.32t/data=!3m7!1e1!3m5!1sEOoBT0Uz9W0knn2lmp4OzQ!2e0!5s20090401T000000!7i13312!8i6656",
+        "date": "Apr 2009",
+        "status": "occupied"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326336,
+              43.683205
+            ],
+            [
+              -79.326215,
+              43.682916
+            ],
+            [
+              -79.326288,
+              43.682901
+            ],
+            [
+              -79.326408,
+              43.68319
+            ],
+            [
+              -79.326336,
+              43.683205
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "616c1a5fad6cac636cccd008dde000f7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1524 Danforth Ave",
+        "class": "hair/beaty",
+        "date": "Apr 2009",
+        "name": "Alba Monalisa",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6831339,-79.3247702,3a,25.8y,309.85h,87.66t/data=!3m7!1e1!3m5!1sT9dZ_WDHacv1tSXZyYa2eg!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324976,
+              43.683498
+            ],
+            [
+              -79.324855,
+              43.683209
+            ],
+            [
+              -79.324929,
+              43.683193
+            ],
+            [
+              -79.325049,
+              43.683482
+            ],
+            [
+              -79.324976,
+              43.683498
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "632a8caee65f6f966beb37ed72945add"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1564 Danforth Ave",
+        "class": "bar",
+        "date": "Apr 2009",
+        "name": "Henry's Bar & Grill",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.683316,-79.3239494,3a,50.4y,14.61h,93.1t/data=!3m7!1e1!3m5!1sgDnWv1i97--NkKhl5ruMig!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.323987,
+              43.683711
+            ],
+            [
+              -79.323867,
+              43.683422
+            ],
+            [
+              -79.323938,
+              43.683407
+            ],
+            [
+              -79.324058,
+              43.683696
+            ],
+            [
+              -79.323987,
+              43.683711
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "667329183ab62ea87ba08fcc2dcb696e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1439 Danforth Ave",
+        "class": "parking",
+        "date": "Apr 2009",
+        "name": "Green P",
+        "status": "N/A",
+        "svurl": "https://www.google.ca/maps/@43.6831005,-79.3245701,3a,75y,145.68h,93.01t/data=!3m7!1e1!3m5!1sMk4VpipAM2WoZ1CE_nMitA!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324587,
+              43.683021
+            ],
+            [
+              -79.324438,
+              43.682657
+            ],
+            [
+              -79.32422,
+              43.682702
+            ],
+            [
+              -79.324369,
+              43.683066
+            ],
+            [
+              -79.324587,
+              43.683021
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "6b0b2d0b95d0985cd8f2946a63653ca8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1432 Danforth Ave",
+        "class": "barber",
+        "name": "Sam's Hair Styling / Shoe Repair",
+        "svurl": "https://www.google.ca/maps/@43.6826985,-79.3268014,3a,46.1y,339.8h,84.98t/data=!3m7!1e1!3m5!1sCn6GdQVtgLgnH-a-sOJsdA!2e0!5s20090401T000000!7i13312!8i6656",
+        "status": "occupied",
+        "date": "Apr 2009"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326977,
+              43.683039
+            ],
+            [
+              -79.326905,
+              43.683054
+            ],
+            [
+              -79.326795,
+              43.682791
+            ],
+            [
+              -79.326868,
+              43.682776
+            ],
+            [
+              -79.326977,
+              43.683039
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "6eb2e77bdda745846aa2b1baeea0b330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1423 Danforth Ave",
+        "class": "services",
+        "date": "Apr 2009",
+        "name": "It's Playtime Child Care & Day Care",
+        "svurl": "https://www.google.ca/maps/@43.6826985,-79.3268014,3a,41.5y,164.66h,91.24t/data=!3m7!1e1!3m5!1sCn6GdQVtgLgnH-a-sOJsdA!2e0!5s20090401T000000!7i13312!8i6656",
+        "status": "occupied"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326838,
+              43.682535
+            ],
+            [
+              -79.32677,
+              43.682549
+            ],
+            [
+              -79.326663,
+              43.682296
+            ],
+            [
+              -79.326735,
+              43.68228
+            ],
+            [
+              -79.326838,
+              43.682535
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "748b2a20457285a2b11b0e1097b0e1e6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1530 Danforth Ave",
+        "status": "vacant",
+        "svurl": "https://www.google.ca/maps/@43.6831772,-79.3245652,3a,26.4y,340.43h,88.74t/data=!3m7!1e1!3m5!1solt8G1r3M1EQpIe-WWROZg!2e0!5s20090401T000000!7i13312!8i6656",
+        "date": "Apr 2009",
+        "class": "N/A",
+        "name": "-"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324755,
+              43.683546
+            ],
+            [
+              -79.324635,
+              43.683258
+            ],
+            [
+              -79.324569,
+              43.68327
+            ],
+            [
+              -79.324689,
+              43.68356
+            ],
+            [
+              -79.324755,
+              43.683546
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "75e0a3311b83690c23a3c4883b05490b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1435 Danforth Ave",
+        "class": "housing",
+        "name": "-",
+        "date": "Apr 2009",
+        "status": "N/A",
+        "svurl": "https://www.google.ca/maps/@43.6827188,-79.3266949,3a,49.2y,154.23h,97.36t/data=!3m7!1e1!3m5!1smGXId5HJB2Tis1Jp5IwwQw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326704,
+              43.682564
+            ],
+            [
+              -79.326481,
+              43.682611
+            ],
+            [
+              -79.326374,
+              43.68236
+            ],
+            [
+              -79.326591,
+              43.682312
+            ],
+            [
+              -79.326704,
+              43.682564
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "896ba9b1d83f68cbfdc043a8c1d5d841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1573 Danforth Ave",
+        "class": "store",
+        "date": "Apr 2009",
+        "name": "Hear for Life",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6832752,-79.3236409,3a,63.8y,203.58h,91.22t/data=!3m7!1e1!3m5!1sdZwIM8cplMEeql67GKZXOw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.32382,
+              43.683186
+            ],
+            [
+              -79.323663,
+              43.68322
+            ],
+            [
+              -79.323602,
+              43.683073
+            ],
+            [
+              -79.323758,
+              43.683036
+            ],
+            [
+              -79.32382,
+              43.683186
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "8ceea32e9cf7361b98acea3a48b5a691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1527 Danforth Ave",
+        "class": "medical",
+        "date": "Apr 2009",
+        "name": "Danforth Village Chiropractic Naturopathic Clinic",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6830254,-79.3250819,3a,25.8y,145.31h,84.35t/data=!3m7!1e1!3m5!1sZUqoVuDRI1Li4Nzzjz5Ijw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.32502,
+              43.682925
+            ],
+            [
+              -79.324972,
+              43.682936
+            ],
+            [
+              -79.324911,
+              43.682788
+            ],
+            [
+              -79.324958,
+              43.682778
+            ],
+            [
+              -79.32502,
+              43.682925
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "918f9db0c7a0db30c90ca1677040270f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1509 Danforth Ave",
+        "class": "hair/beauty",
+        "date": "Apr 2009",
+        "name": "Sugarmoon",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6829824,-79.325277,3a,26y,181.83h,86.76t/data=!3m7!1e1!3m5!1sE3vxUv7lbdBrs7ANHR_eZg!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325314,
+              43.682863
+            ],
+            [
+              -79.325265,
+              43.682873
+            ],
+            [
+              -79.325204,
+              43.682725
+            ],
+            [
+              -79.325253,
+              43.682714
+            ],
+            [
+              -79.325314,
+              43.682863
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "99623823c619d27c20e602af401fdfa7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1472 Danforth Ave",
+        "class": "hair/beaty",
+        "date": "Apr 2009",
+        "name": "Amethyst Spa & Salon",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6828729,-79.3259774,3a,35.3y,327.54h,88.54t/data=!3m7!1e1!3m5!1sNyOwILut7Q8uSwTznxCnSw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326127,
+              43.68325
+            ],
+            [
+              -79.326006,
+              43.682961
+            ],
+            [
+              -79.326072,
+              43.682947
+            ],
+            [
+              -79.326193,
+              43.683236
+            ],
+            [
+              -79.326127,
+              43.68325
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "9eb99f101a395e6965d48a2bc8a47e35"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1434 Danforth Ave",
+        "svurl": "https://www.google.ca/maps/@43.6827188,-79.3266949,3a,20.9y,326.78h,88.56t/data=!3m7!1e1!3m5!1smGXId5HJB2Tis1Jp5IwwQw!2e0!5s20090401T000000!7i13312!8i6656",
+        "class": "N/A",
+        "name": "-",
+        "status": "vacant",
+        "date": "Apr 2009"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326905,
+              43.683054
+            ],
+            [
+              -79.326832,
+              43.68307
+            ],
+            [
+              -79.326723,
+              43.682807
+            ],
+            [
+              -79.326795,
+              43.682791
+            ],
+            [
+              -79.326905,
+              43.683054
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "9eca88d48459d9e16268803abf346884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1474 Danforth Ave",
+        "class": "dentist",
+        "date": "Apr 2009",
+        "name": "Danforth Dental",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6828729,-79.3259774,3a,35.3y,350.74h,89.85t/data=!3m7!1e1!3m5!1sNyOwILut7Q8uSwTznxCnSw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326061,
+              43.683264
+            ],
+            [
+              -79.325941,
+              43.682975
+            ],
+            [
+              -79.326006,
+              43.682961
+            ],
+            [
+              -79.326127,
+              43.68325
+            ],
+            [
+              -79.326061,
+              43.683264
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "a48f94c6e3c60599a0011ace7e97c463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1480 Danforth Ave",
+        "class": "cafe",
+        "date": "Apr 2009",
+        "name": "Gateway Cafe",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6829271,-79.325725,3a,25.5y,312.7h,89.94t/data=!3m7!1e1!3m5!1sEQ5G-MuyROWW6p6IZp_Dtw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325994,
+              43.683278
+            ],
+            [
+              -79.32593,
+              43.683291
+            ],
+            [
+              -79.325808,
+              43.683003
+            ],
+            [
+              -79.325872,
+              43.682989
+            ],
+            [
+              -79.325994,
+              43.683278
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "a6fb4c84cf51ad79def81952682af574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1528 Danforth Ave",
+        "class": "restaurant",
+        "date": "Apr 2009",
+        "name": "Gerrard Spaghetti & Pizza",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6831339,-79.3247702,3a,25.8y,0.31h,94.05t/data=!3m7!1e1!3m5!1sT9dZ_WDHacv1tSXZyYa2eg!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324829,
+              43.68353
+            ],
+            [
+              -79.324708,
+              43.683241
+            ],
+            [
+              -79.324782,
+              43.683225
+            ],
+            [
+              -79.324902,
+              43.683514
+            ],
+            [
+              -79.324829,
+              43.68353
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "ab512bae544c56357fbcaa465dd0617b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1502 Danforth Ave",
+        "class": "store",
+        "date": "Apr 2009",
+        "name": "SNC Cleaning Supplies & Equipment",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.682941,-79.3254716,3a,45.9y,354.18h,96.37t/data=!3m7!1e1!3m5!1symf2JYmzSkxPxvxYkWUVoQ!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325533,
+              43.683378
+            ],
+            [
+              -79.325413,
+              43.683089
+            ],
+            [
+              -79.325518,
+              43.683066
+            ],
+            [
+              -79.325639,
+              43.683355
+            ],
+            [
+              -79.325533,
+              43.683378
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "aec4eb304f24a371c0f3aa76024f19d3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1535 Danforth Ave",
+        "class": "Design Studio",
+        "date": "Apr 2009",
+        "name": "Wiklem Design Inc.",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6830581,-79.3249293,3a,22.5y,146.19h,83.64t/data=!3m7!1e1!3m5!1shn_noEm9-AjvB9GeopBwuQ!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324875,
+              43.682957
+            ],
+            [
+              -79.324825,
+              43.682968
+            ],
+            [
+              -79.324764,
+              43.68282
+            ],
+            [
+              -79.324814,
+              43.682809
+            ],
+            [
+              -79.324875,
+              43.682957
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "b3fc4a2de052557d0c866c7ff1fb8be6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1425 Danforth Ave",
+        "class": "services",
+        "date": "Apr 2009",
+        "name": "It's Playtime Child Care & Day Care",
+        "svurl": "https://www.google.ca/maps/@43.6826985,-79.3268014,3a,41.5y,164.66h,91.24t/data=!3m7!1e1!3m5!1sCn6GdQVtgLgnH-a-sOJsdA!2e0!5s20090401T000000!7i13312!8i6656",
+        "status": "occupied"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.32677,
+              43.682549
+            ],
+            [
+              -79.326704,
+              43.682564
+            ],
+            [
+              -79.326591,
+              43.682311
+            ],
+            [
+              -79.326662,
+              43.682296
+            ],
+            [
+              -79.32677,
+              43.682549
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "c86f8cbe35a3bc1067a16febd24e3d65"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1496 Danforth Ave",
+        "class": "N/A",
+        "date": "Apr 2009",
+        "name": "-",
+        "status": "unknown",
+        "svurl": "https://www.google.ca/maps/@43.682941,-79.3254716,3a,22.8y,328.42h,88.9t/data=!3m7!1e1!3m5!1symf2JYmzSkxPxvxYkWUVoQ!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325639,
+              43.683355
+            ],
+            [
+              -79.325518,
+              43.683066
+            ],
+            [
+              -79.325586,
+              43.683052
+            ],
+            [
+              -79.325707,
+              43.683341
+            ],
+            [
+              -79.325639,
+              43.683355
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "c895590c728d947ce11901790fb82f75"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1436 Danforth Ave",
+        "class": "store",
+        "svurl": "https://www.google.ca/maps/@43.6827342,-79.326615,3a,26.2y,324.6h,85.7t/data=!3m7!1e1!3m5!1sC2a7E5RCWXzhjQWpjGMC4A!2e0!5s20090401T000000!7i13312!8i6656",
+        "name": "TGI...payday",
+        "status": "occupied",
+        "date": "Apr 2009"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326766,
+              43.6831
+            ],
+            [
+              -79.32665,
+              43.682823
+            ],
+            [
+              -79.326723,
+              43.682807
+            ],
+            [
+              -79.326832,
+              43.68307
+            ],
+            [
+              -79.326766,
+              43.6831
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "c9846093e0320f278baba20449d1a416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1454 Danforth Ave",
+        "class": "services",
+        "date": "Apr 2009",
+        "name": "Sudanese Community Association of Ontario",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.682783,-79.3263832,3a,21.3y,7.99h,87.04t/data=!3m7!1e1!3m5!1sMhmg5e1heoTOKwLNvOpC0w!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326361,
+              43.682885
+            ],
+            [
+              -79.326289,
+              43.6829
+            ],
+            [
+              -79.326408,
+              43.68319
+            ],
+            [
+              -79.326479,
+              43.683176
+            ],
+            [
+              -79.326361,
+              43.682885
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "caaede4064a8bc4dbe437b453d4213e9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1562 Danforth Ave",
+        "class": "store",
+        "date": "Apr 2009",
+        "name": "Double D Store",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.683316,-79.3239494,3a,50.4y,343.16h,93.04t/data=!3m7!1e1!3m5!1sgDnWv1i97--NkKhl5ruMig!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324058,
+              43.683696
+            ],
+            [
+              -79.323938,
+              43.683407
+            ],
+            [
+              -79.324011,
+              43.683391
+            ],
+            [
+              -79.324132,
+              43.68368
+            ],
+            [
+              -79.324058,
+              43.683696
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "cc093b1fd9293dd5ba82d526a9cdf989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1439 Danforth Ave",
+        "class": "parking",
+        "name": "Green P",
+        "date": "Apr 2009",
+        "status": "N/A",
+        "svurl": "https://www.google.ca/maps/@43.682783,-79.3263832,3a,75y,168.5h,98.16t/data=!3m7!1e1!3m5!1sMhmg5e1heoTOKwLNvOpC0w!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326481,
+              43.682611
+            ],
+            [
+              -79.326265,
+              43.682658
+            ],
+            [
+              -79.326161,
+              43.682408
+            ],
+            [
+              -79.326374,
+              43.68236
+            ],
+            [
+              -79.326481,
+              43.682611
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "ccd08daaf5c27978bf46d03c6b208fcb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1464 Danforth Ave",
+        "class": "store",
+        "name": "Celsa's Barangay Store",
+        "status": "occupied",
+        "date": "Apr 2009",
+        "svurl": "https://www.google.ca/maps/@43.6828467,-79.3260973,3a,21.8y,321.01h,87.62t/data=!3m7!1e1!3m5!1sEaCM3hNW11vuGkw5BvWAEg!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326265,
+              43.683221
+            ],
+            [
+              -79.326144,
+              43.682932
+            ],
+            [
+              -79.326215,
+              43.682916
+            ],
+            [
+              -79.326336,
+              43.683205
+            ],
+            [
+              -79.326265,
+              43.683221
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "d455a719650759dfab4a85b641c16d28"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1450 Danforth Ave",
+        "class": "restaurant",
+        "date": "Apr 2009",
+        "name": "Walima Cafe",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.682783,-79.3263832,3a,21.3y,342.67h,86.64t/data=!3m7!1e1!3m5!1sMhmg5e1heoTOKwLNvOpC0w!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326432,
+              43.682869
+            ],
+            [
+              -79.326362,
+              43.682885
+            ],
+            [
+              -79.326479,
+              43.683175
+            ],
+            [
+              -79.326552,
+              43.683158
+            ],
+            [
+              -79.326432,
+              43.682869
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "d5078d7439f42337bea94a34e0d093d3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1442 Danforth Ave",
+        "svurl": "https://www.google.ca/maps/@43.6827342,-79.326615,3a,26.2y,352.86h,87.99t/data=!3m7!1e1!3m5!1sC2a7E5RCWXzhjQWpjGMC4A!2e0!5s20090401T000000!7i13312!8i6656",
+        "name": "unknown",
+        "class": "unknown",
+        "date": "Apr 2009",
+        "status": "unknown"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.326713,
+              43.683124
+            ],
+            [
+              -79.326698,
+              43.683127
+            ],
+            [
+              -79.326578,
+              43.682838
+            ],
+            [
+              -79.32665,
+              43.682823
+            ],
+            [
+              -79.326766,
+              43.6831
+            ],
+            [
+              -79.326713,
+              43.683124
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "d556d7c8fdc8d06b6e573286395dc282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1504 Danforth Ave",
+        "class": "restaurant",
+        "date": "Apr 2009",
+        "name": "Balkan Cafe",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6829824,-79.325277,3a,26.9y,325.35h,89.72t/data=!3m7!1e1!3m5!1sE3vxUv7lbdBrs7ANHR_eZg!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325464,
+              43.683393
+            ],
+            [
+              -79.325343,
+              43.683104
+            ],
+            [
+              -79.325413,
+              43.683089
+            ],
+            [
+              -79.325533,
+              43.683378
+            ],
+            [
+              -79.325464,
+              43.683393
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "d94ef49201f7f42b181e11720efd65c5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1556 Danforth Ave",
+        "class": "store",
+        "date": "Apr 2009",
+        "name": "Dance Dance Dance",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6831963,-79.3241286,3a,26.8y,6.55h,92.25t/data=!3m7!1e1!3m5!1s4ZKbgBhj79rnH5g1fy_86A!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324132,
+              43.68368
+            ],
+            [
+              -79.324011,
+              43.683391
+            ],
+            [
+              -79.324159,
+              43.683359
+            ],
+            [
+              -79.32428,
+              43.683648
+            ],
+            [
+              -79.324132,
+              43.68368
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "daeb1908ed1089722e3ba7b169b6305b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1529 Danforth Ave",
+        "class": "unknown",
+        "date": "Apr 2009",
+        "name": "Avon",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6830254,-79.3250819,3a,27.7y,126.63h,86.33t/data=!3m7!1e1!3m5!1sZUqoVuDRI1Li4Nzzjz5Ijw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324971,
+              43.682936
+            ],
+            [
+              -79.324924,
+              43.682947
+            ],
+            [
+              -79.324863,
+              43.682799
+            ],
+            [
+              -79.32491,
+              43.682788
+            ],
+            [
+              -79.324971,
+              43.682936
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "e2fc1f4f2034000d6cb0686db199c1f1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1520 Danforth ave",
+        "class": "store",
+        "date": "Apr 2009",
+        "name": "Computer Repair Depot",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6830581,-79.3249293,3a,25.9y,339.8h,93.56t/data=!3m7!1e1!3m5!1shn_noEm9-AjvB9GeopBwuQ!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325049,
+              43.683482
+            ],
+            [
+              -79.324929,
+              43.683193
+            ],
+            [
+              -79.325026,
+              43.683172
+            ],
+            [
+              -79.325147,
+              43.683461
+            ],
+            [
+              -79.325049,
+              43.683482
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "e3bc8e15b2595775d4e788416bc06b3d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1526 Danforth Ave",
+        "class": "unknown",
+        "date": "Apr 2009",
+        "name": "unknown",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6831339,-79.3247702,3a,25.8y,335.93h,88.21t/data=!3m7!1e1!3m5!1sT9dZ_WDHacv1tSXZyYa2eg!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324902,
+              43.683514
+            ],
+            [
+              -79.324782,
+              43.683225
+            ],
+            [
+              -79.324855,
+              43.683209
+            ],
+            [
+              -79.324976,
+              43.683498
+            ],
+            [
+              -79.324902,
+              43.683514
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "e86a672f5110a03c91c25eb1bec71951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1491 Danforth Ave",
+        "class": "community service",
+        "date": "Apr 2009",
+        "name": "Woodgreen Immigrant Services",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6829271,-79.325725,3a,28.5y,163.1h,93.13t/data=!3m7!1e1!3m5!1sEQ5G-MuyROWW6p6IZp_Dtw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325542,
+              43.682813
+            ],
+            [
+              -79.325434,
+              43.682551
+            ],
+            [
+              -79.325675,
+              43.682499
+            ],
+            [
+              -79.325783,
+              43.682761
+            ],
+            [
+              -79.325542,
+              43.682813
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "eb9692d620c19f6bdac827ec4df25715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1540 Danforth Ave",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6831475,-79.3243581,3a,16.7y,331.93h,88.91t/data=!3m7!1e1!3m5!1sJ7T0Ig424kH4f8RIedkkFw!2e0!5s20090401T000000!7i13312!8i6656",
+        "date": "Apr 2009",
+        "class": "pizza / takeout",
+        "name": "https://www.google.ca/maps/@43.6831963,-79.3241286,3a,15y,328.99h,90.53t/data=!3m7!1e1!3m5!1s4ZKbgBhj79rnH5g1fy_86A!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324624,
+              43.683575
+            ],
+            [
+              -79.324559,
+              43.683587
+            ],
+            [
+              -79.324438,
+              43.683298
+            ],
+            [
+              -79.324502,
+              43.683285
+            ],
+            [
+              -79.324624,
+              43.683575
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "ee139d833731a64861841284c59d9c85"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1511 Danforth Ave",
+        "class": "services",
+        "date": "Apr 2009",
+        "name": "Mystical Psychic",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6829824,-79.325277,3a,26y,161.77h,84.96t/data=!3m7!1e1!3m5!1sE3vxUv7lbdBrs7ANHR_eZg!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325265,
+              43.682873
+            ],
+            [
+              -79.325216,
+              43.682884
+            ],
+            [
+              -79.325155,
+              43.682735
+            ],
+            [
+              -79.325204,
+              43.682725
+            ],
+            [
+              -79.325265,
+              43.682873
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "f2ddf79efa2dad1194b0ee68e7eb0cc9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1523 Danforth Ave",
+        "class": "medical",
+        "date": "Apr 2009",
+        "name": "Grooming By Brian Neville",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6830254,-79.3250819,3a,25.8y,163.95h,87.66t/data=!3m7!1e1!3m5!1sZUqoVuDRI1Li4Nzzjz5Ijw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.32507,
+              43.682915
+            ],
+            [
+              -79.325021,
+              43.682926
+            ],
+            [
+              -79.32496,
+              43.682778
+            ],
+            [
+              -79.325009,
+              43.682767
+            ],
+            [
+              -79.32507,
+              43.682915
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "f4c6515eab3592d1b5295df824c25f83"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1521 Danforth Ave",
+        "class": "consulting",
+        "date": "Apr 2009",
+        "name": "DNA - Dakis & Associates Inc",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6830438,-79.3251763,3a,15y,154.84h,85.73t/data=!3m7!1e1!3m5!1soLFDftcdVjdtnlnY4x_Pkg!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325119,
+              43.682905
+            ],
+            [
+              -79.32507,
+              43.682915
+            ],
+            [
+              -79.325009,
+              43.682767
+            ],
+            [
+              -79.325058,
+              43.682757
+            ],
+            [
+              -79.325119,
+              43.682905
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "f7356b5937d4f1eb3ad8de4cab515129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1510 Danforth Ave",
+        "class": "store",
+        "date": "Apr 2009",
+        "name": "The Cyclepath",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.6830438,-79.3251763,3a,50.4y,342.1h,98.12t/data=!3m7!1e1!3m5!1soLFDftcdVjdtnlnY4x_Pkg!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325232,
+              43.683443
+            ],
+            [
+              -79.325112,
+              43.683154
+            ],
+            [
+              -79.325287,
+              43.683116
+            ],
+            [
+              -79.325408,
+              43.683405
+            ],
+            [
+              -79.325232,
+              43.683443
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "f9ed592fde0ba57a64e581cc1ec15f8b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1501 Danforth Ave",
+        "class": "services",
+        "date": "Apr 2009",
+        "name": "Byte Media / Baldhead Systems",
+        "status": "occupied",
+        "svurl": "https://www.google.ca/maps/@43.682941,-79.3254716,3a,17.2y,168.23h,85.06t/data=!3m7!1e1!3m5!1symf2JYmzSkxPxvxYkWUVoQ!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.325462,
+              43.682831
+            ],
+            [
+              -79.325411,
+              43.682842
+            ],
+            [
+              -79.32535,
+              43.682693
+            ],
+            [
+              -79.325401,
+              43.682683
+            ],
+            [
+              -79.325462,
+              43.682831
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "fb28ee26bc35cb73a7dcc6c4ed52469e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1549 Danforth Ave",
+        "class": "park",
+        "date": "Apr 2009",
+        "name": "Robertson Parkette",
+        "status": "N/A",
+        "svurl": "https://www.google.ca/maps/@43.6832546,-79.324221,3a,50.3y,152h,95.65t/data=!3m7!1e1!3m5!1sfdiMSmUr3dje-Xu9VWTDXw!2e0!5s20090401T000000!7i13312!8i6656"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.324368,
+              43.683067
+            ],
+            [
+              -79.32382,
+              43.683186
+            ],
+            [
+              -79.32367,
+              43.682823
+            ],
+            [
+              -79.324219,
+              43.682704
+            ],
+            [
+              -79.324368,
+              43.683067
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "fb332b3494dd1741c13adec6e675e762"
+    }
+  ],
+  "type": "FeatureCollection"
+}
