@@ -26,6 +26,7 @@ const statusToColorActive = [
 
 const layerNames = [
     'Jul 2016',
+    'Aug 2011',
     'Apr 2009',
     'Sep 2007'
 ];
@@ -62,6 +63,25 @@ map.on('load', () => {
         'type':'fill',
         'source':{
             'type':'vector',
+            'url': 'mapbox://peterschretlen.cj78a4ani005z2wmp1r84kwvt-10x7n'
+        },
+        'source-layer': 'Danforth_-_2011_-_08', // name of tileset
+        'paint': {
+            'fill-opacity' : 0.0,
+            'fill-color' : {
+                'property' : 'status',
+                'type' : 'categorical',
+                'stops' : statusToColorActive
+            },
+            'fill-outline-color' : `rgba(55, 55, 55, 0.5)`,
+        }
+    });
+
+    map.addLayer({
+        'id': layerNames[2],
+        'type':'fill',
+        'source':{
+            'type':'vector',
             'url': 'mapbox://peterschretlen.cj76725b61j0i33pi5oo4e4gh-6uwk7'
         },
         'source-layer': 'Danforth_-_2009_-_04', // name of tileset
@@ -77,7 +97,7 @@ map.on('load', () => {
     });
 
     map.addLayer({
-        'id': layerNames[2],
+        'id': layerNames[3],
         'type':'fill',
         'source':{
             'type':'vector',
