@@ -29,7 +29,7 @@ const layerNames = [
     'Aug 2011',
     'Apr 2009',
     'Sep 2007'
-];
+    ];
 
 
 const nav = new mapboxgl.NavigationControl()
@@ -43,9 +43,9 @@ map.on('load', () => {
         'type':'fill',
         'source':{
             'type':'vector',
-            'url': 'mapbox://peterschretlen.cj69f4y5m0rkm2wlmt4d9qb0h-48xqd'
+            'url': 'mapbox://peterschretlen.d4trsrqk'
         },
-        'source-layer': 'DECA_-_Danforth', // name of tileset
+        'source-layer': 'clipped_2016_07-04jutm', // name of tileset
         'paint': {
             'fill-opacity' : 1.0,
             'fill-color' : {
@@ -63,11 +63,11 @@ map.on('load', () => {
         'type':'fill',
         'source':{
             'type':'vector',
-            'url': 'mapbox://peterschretlen.cj78a4ani005z2wmp1r84kwvt-10x7n'
+            'url': 'mapbox://peterschretlen.aa6f1rd4'
         },
-        'source-layer': 'Danforth_-_2011_-_08', // name of tileset
+        'source-layer': 'clipped_2011_08-d5t55e', // name of tileset
         'paint': {
-            'fill-opacity' : 0.0,
+            'fill-opacity' : 0.8,
             'fill-color' : {
                 'property' : 'status',
                 'type' : 'categorical',
@@ -82,11 +82,11 @@ map.on('load', () => {
         'type':'fill',
         'source':{
             'type':'vector',
-            'url': 'mapbox://peterschretlen.cj76725b61j0i33pi5oo4e4gh-6uwk7'
+            'url': 'mapbox://peterschretlen.31vtvn1r'
         },
-        'source-layer': 'Danforth_-_2009_-_04', // name of tileset
+        'source-layer': 'clipped_2009_04-cd7cp4', // name of tileset
         'paint': {
-            'fill-opacity' : 0.0,
+            'fill-opacity' : 0.6,
             'fill-color' : {
                 'property' : 'status',
                 'type' : 'categorical',
@@ -101,11 +101,11 @@ map.on('load', () => {
         'type':'fill',
         'source':{
             'type':'vector',
-            'url': 'mapbox://peterschretlen.cj6sojsfc03se32rpfhz1l04e-9dm5e'
+            'url': 'mapbox://peterschretlen.0fyyod3e'
         },
-        'source-layer': 'Danforth_-_2007_-_09', // name of tileset
+        'source-layer': 'clipped_2007_09-861adz', // name of tileset
         'paint': {
-            'fill-opacity' : 0.0,
+            'fill-opacity' : 0.4,
             'fill-color' : {
                 'property' : 'status',
                 'type' : 'categorical',
@@ -220,7 +220,7 @@ function addLayerToggles( ids ){
                     return;
                 }
 
-                map.setPaintProperty(layerId, 'fill-opacity', 0.0);
+                map.setPaintProperty(layerId, 'fill-opacity', 0.6);
                 elem.className = '';
 
             })
