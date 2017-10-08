@@ -53,7 +53,7 @@ const roadGeom = turf.lineString( roadObj.features[0].geometry.coordinates );
 		})
 
 		//Apply the difference as the translation distance
-		const dist = (idx+1)*(distances.max - distances.min);
+		const dist = (idx)*(distances.max - distances.min);
 
 		//apply translation
 		const bearing = turf.bearing(nearestPoints[0], turf.point( f.geometry.coordinates[0][0] ));
